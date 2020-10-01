@@ -1,0 +1,85 @@
+* {
+    color: #000066;
+    font-family: 'Monotype Corsiva';
+}
+
+html {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+    background-color: #ef6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #999;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.tarto {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bal {
+    float: left;
+}
+
+.jobb {
+    float: right;
+}
+
+hr {
+    height: 3px;
+    background-color: #f00;
+    border: none;
+}
+
+.napok{
+    padding-left: 35px;
+    position: relative;
+    padding-bottom: 5px; 
+}
+
+img.kep {
+    width: 160px;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+.arak {
+    position: relative;
+}
+
+.balTanyer {
+    width: 150px;
+    position: absolute;
+    left: 0px;
+}
+
+.jobbTanyer {
+    width: 150px;
+    position: absolute;
+    right: 0px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    font-family: courier;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+}
